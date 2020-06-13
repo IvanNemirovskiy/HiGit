@@ -1,9 +1,11 @@
 package equals;
 
 
+import com.abstractClasses.PersonTest;
 import org.omg.CORBA.Object;
 
 import java.time.*;
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Employee {
@@ -12,11 +14,10 @@ public class Employee {
     private LocalDate hairDay;
 
     public Employee(
-            String name, double salary, int year, int month, int day
-    ) {
+            String name, double salary, int year, int month, int day) {
         this.name =name;
         this.salary = salary;
-        hairDay = LocalDate.of(year, day, month);
+        hairDay = LocalDate.of(year, month, day);
 
     }
     public String getName(){

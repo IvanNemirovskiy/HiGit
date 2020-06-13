@@ -1,6 +1,7 @@
 package Workers.company;
 
 import com.abstractClasses.PersonTest;
+import equals.Employee;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -19,7 +20,9 @@ public class Main {
             app2.setVisible(true);
             SimpleGUI app1 = new SimpleGUI();
             app1.setVisible(true);
-            ArrayList<PersonTest> testing = new ArrayList<>();
+
+
+
             Scanner scanw = new Scanner(System.in);
            // System.out.println("What's your name ?");
 
